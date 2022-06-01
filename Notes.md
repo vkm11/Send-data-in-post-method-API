@@ -65,7 +65,7 @@ http://localhost:3000/users
     
     +
     
-3) PUT :- editing
+3) PUT :- Editing data (using id to Edit the data)
 
    step-1: past url:- http://localhost:3000/users/2
    

@@ -37,3 +37,46 @@ http://localhost:3000/users
     }
   ]
 }
+
+
+
+# postman open -->
+
+1) GET :- get data
+   step-1: past URL:- http://localhost:3000/users 
+
+   step-2: SEND
+
+     +
+
+2) POST :- send data
+   step-1: past URL:- http://localhost:3000/users
+
+   step-2: click body, click raw, choose JSON, Then type:-
+    {
+      "id": 2,
+      "email": "kumar@gmail.com",
+      "password": "kumar@1234"
+    }
+
+    step-3: SEND
+    
+    +
+    
+3) put:- editing
+   step-1: past url:- http://localhost:3000/users/2
+   
+   step-2: click body, click raw, choose JSON, Then type:-
+    {
+      "id": 2,
+      "email": "kumar@gmail.com",
+      "password": "kumar@123"
+    }
+    
+   step-3: SEND
+   
+4) Delete:- delete data (using id to delete the data)
+   step-1: past url:- http://localhost:3000/users/2
+   
+   step-2: SEND
+   

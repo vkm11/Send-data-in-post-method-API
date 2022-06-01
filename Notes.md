@@ -63,7 +63,7 @@ http://localhost:3000/users
     
     +
     
-3) put:- editing
+3) PUT :- editing
    step-1: past url:- http://localhost:3000/users/2
    
    step-2: click body, click raw, choose JSON, Then type:-
@@ -75,7 +75,7 @@ http://localhost:3000/users
     
    step-3: SEND
    
-4) Delete:- delete data (using id to delete the data)
+4) DELETE :- delete data (using id to delete the data)
    step-1: past url:- http://localhost:3000/users/2
    
    step-2: SEND

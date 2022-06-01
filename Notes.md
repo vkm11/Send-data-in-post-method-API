@@ -43,6 +43,7 @@ http://localhost:3000/users
 # postman open -->
 
 1) GET :- get data
+
    step-1: past URL:- http://localhost:3000/users 
 
    step-2: SEND
@@ -50,6 +51,7 @@ http://localhost:3000/users
      +
 
 2) POST :- send data
+
    step-1: past URL:- http://localhost:3000/users
 
    step-2: click body, click raw, choose JSON, Then type:-
@@ -64,6 +66,7 @@ http://localhost:3000/users
     +
     
 3) PUT :- editing
+
    step-1: past url:- http://localhost:3000/users/2
    
    step-2: click body, click raw, choose JSON, Then type:-
@@ -76,6 +79,7 @@ http://localhost:3000/users
    step-3: SEND
    
 4) DELETE :- delete data (using id to delete the data)
+
    step-1: past url:- http://localhost:3000/users/2
    
    step-2: SEND

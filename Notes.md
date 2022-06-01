@@ -7,6 +7,17 @@
 4. send data to api
 5. test api result
 
+
+
+# Install AXIOS Package:- 
+
+- we have to search in google axios npm then you have to see all details 
+   
+- (install in your terminal window)
+
+npm install axios
+
+
 # make 1 folder and do this all 👎
 
 # Install json server

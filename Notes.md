@@ -7,6 +7,7 @@
 4. send data to api
 5. test api result
 
+# make 1 folder and do this all 👎
 
 # Install json server
 
@@ -15,6 +16,8 @@
 # Start JSON Server
 
  json-server --watch db.json
+ 
+- (it will be automatically generate dummy api)
 
 
 # output:-

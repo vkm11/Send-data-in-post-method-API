@@ -23,6 +23,10 @@ npm install axios
 # Install json server
 
  npm install -g json-server
+ 
+ ## check json server installed or not
+ 
+ json-server
 
 # Start JSON Server
 

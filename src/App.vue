@@ -1,16 +1,32 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+<h1>POST Method API</h1>
+  <input type="text" name="email" v-model="email" /> <br /> <br />
+  <input type="password" name="password" v-model="password" /> <br /> <br />
+  <button v-on:click="addUser()">Add User</button>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import axios from 'axios'
 export default {
   name: 'App',
-  components: {
-    HelloWorld
+  data(){
+    return{
+      email: '',
+      password: ''
+    }
+  },
+  methods: {
+    async addUser(){
+      console.log(this.email, this.password);
+      
+      let result = await axios.post("http://localhost:3000/users",{
+        email:this.email,
+        password:this.password
+      });
+      console.log("result", result);
+    }
   }
+
 }
 </script>
 
